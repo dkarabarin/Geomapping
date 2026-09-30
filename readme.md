@@ -4,6 +4,7 @@
 месяца, группирует визиты каждого дня в компактные кластеры
 (≤ `max_points_per_cluster` точек) и строит порядок обхода внутри кластера.
 Результат — CSV-таблицы и интерактивная HTML-карта.
+<img width="1920" height="1018" alt="image" src="https://github.com/user-attachments/assets/8bd934ac-f644-41d3-9c3f-c439308a2557" />
 ![Uploading image.png…]()
 
 ---
