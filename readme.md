@@ -45,13 +45,6 @@ out["result"].schedule      # итоговая таблица
 out["result"].checks        # проверки по критериям приёмки
 ```
 
-Функции из ТЗ доступны напрямую: `calculate_distance(p1, p2)`,
-`cluster_points(points)`, `build_route(cluster)`,
-`visualize_map(points, clusters)`.
-
-Демонстрация с пояснениями — `notebooks/geolocation_v3.ipynb`. Ноутбук
-только вызывает функции из `src/`, поэтому код существует в одном
-экземпляре.
 
 ---
 
