@@ -1,0 +1,36 @@
+{
+  "config": {
+    "working_days": 22,
+    "max_points_per_cluster": 12,
+    "min_points_per_cluster": 8,
+    "max_clusters_per_manager_per_day": 2,
+    "allowed_visits": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "cluster_fill_ratio": 0.9,
+    "random_seed": 42,
+    "distance_backend": "osrm",
+    "road_detour_factor": 1.3,
+    "avg_speed_kmh": 50.0,
+    "service_time_min": 15.0,
+    "max_work_hours": 9.0,
+    "depot": [
+      56.3269,
+      44.0052
+    ],
+    "default_manager": 0,
+    "use_two_opt": true,
+    "map_road_geometry": true
+  },
+  "distance_source": "osrm (по дорогам): запросов 0, получено пар 0, из кеша 72180, по прямой×1.3 0 пар (0.0%)",
+  "points_valid": 633,
+  "rows_rejected": 0,
+  "visits_required": 1125,
+  "visits_planned": 1125,
+  "visits_unassigned": 0,
+  "clusters": 112,
+  "checks_passed": false
+}
